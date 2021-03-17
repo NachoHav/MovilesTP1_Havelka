@@ -12,7 +12,7 @@ public class UsbConectado extends BroadcastReceiver {
     public void onReceive(Context context, Intent intent) {
         String a = intent.getAction();
         boolean cargando = (a.equals(Intent.ACTION_POWER_CONNECTED));
-
+        //a
         if(cargando){
             Toast.makeText(context,"  Llamando.", Toast.LENGTH_LONG).show();
             
